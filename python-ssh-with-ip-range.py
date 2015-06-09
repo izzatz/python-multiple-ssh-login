@@ -10,7 +10,7 @@ try:
         
         print "======================="
         
-        ssh.connect(address, username='root', password='intel123')
+        ssh.connect(address, username='user', password='pass')
         print "Connected", address
 
         #execute simple command on each system ip
